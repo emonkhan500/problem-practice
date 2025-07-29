@@ -33,3 +33,14 @@ const original = [1, 2, 3];
 // Using slice()
 const copy2 = original.slice(2);
 console.log(copy2);
+
+
+let i = 1;
+while( i <=200){
+    if(i===100){
+        break
+        
+    }
+    console.log(i)
+    i++;
+}
